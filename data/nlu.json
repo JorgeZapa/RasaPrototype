@@ -1,0 +1,358 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "number",
+        "pattern": "[0-9]{9}"
+      }
+    ],
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "My name is Pedro",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "Pedro",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "The name's Sara",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "Sara",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Ana",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Ana",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Alvaro is my name",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Alvaro",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "The number of my son is 629457685",
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "629457685",
+            "entity": "number"
+          }
+        ]
+      },
+      {
+        "text": "978345214",
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "978345214",
+            "entity": "number"
+          }
+        ]
+      },
+      {
+        "text": "The number is 634221586",
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "634221586",
+            "entity": "number"
+          }
+        ]
+      },
+      {
+        "text": "657893451",
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "657893451",
+            "entity": "number"
+          }
+        ]
+      },
+      {
+        "text": "name's Marta",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Marta",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "My daughter's number is 976452312",
+        "intent": "give_number",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "976452312",
+            "entity": "number"
+          }
+        ]
+      },
+      {
+        "text": "The name is Jose",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "Jose",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "The name is Jorge",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "Jorge",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "My name is Aquilino",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": "Aquilino",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "My name is María",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "María",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "lost",
+        "intent": "lost",
+        "entities": []
+      },
+      {
+        "text": "I don't know where i am",
+        "intent": "lost",
+        "entities": []
+      },
+      {
+        "text": "I do not know where i am",
+        "intent": "lost",
+        "entities": []
+      },
+      {
+        "text": "I am lost",
+        "intent": "lost",
+        "entities": []
+      },
+      {
+        "text": "I'm lost",
+        "intent": "lost",
+        "entities": []
+      },
+      {
+        "text": "how far i am from home?",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "distance",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "am i too far from home?",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "how far is home?",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "what is the distance from here to home?",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "distance between here and home?",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "what is the distance to home?",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "how do i get home?",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "I want to get home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "I want to get back",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "go home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "how can i go home?",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "show me the way to home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "Can you show me the route to my home?",
+        "intent": "go_home",
+        "entities":  []
+      },
+      {
+        "text": "Show me the route to home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "I wanna go home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "The name's Miguel",
+        "intent": "give_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "Miguel",
+            "entity": "PERSON"
+          }
+        ]
+      },
+      {
+        "text": "sup?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I want to change my location",
+        "intent": "change_location",
+        "entities": []
+      },
+      {
+        "text": "change location",
+        "intent": "change_location",
+        "entities": []
+      },
+      {
+        "text": "change home",
+        "intent": "change_location",
+        "entities": []
+      },
+      {
+        "text": "change home location",
+        "intent": "change_location",
+        "entities": []
+      }
+    ]
+  }
+}

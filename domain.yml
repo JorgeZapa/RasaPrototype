@@ -1,0 +1,62 @@
+intents:
+ - greet
+ - give_name
+ - give_number
+ - lost
+ - distance
+ - go_home
+ - change_location
+
+entities:
+ - PERSON
+ - number
+
+action_factory: remote
+
+actions:
+  - utter_greet
+  - utter_give_name
+  - utter_give_number
+  - utter_give_location
+  - utter_lost
+  - utter_distance
+  - utter_go_home
+  - utter_no_name
+  - utter_no_number
+  - utter_change_location
+
+slots:
+  number:
+    type: text
+  PERSON:
+    type: text
+
+
+templates:
+  utter_greet:
+    - "hello!"
+    - "hey there!"
+    - "hello do you need something?"
+  utter_give_name:
+    - "Nice to meet you {name}"
+  utter_give_number:
+    - "{number} its a wonderfull number"
+  utter_give_location:
+    - "Excelent!"
+  utter_wrong:
+    - "I didn't understand you, repeat"
+  utter_lost:
+    - "Sending SMS to sosNumber"
+  utter_distance:
+    - "Your distance to home is {distance}"
+  utter_go_home:
+    - "this is how you get home"
+  utter_no_name:
+    - "I didn't understand your name"
+  utter_no_number:
+    - "I didn't get your number"
+  utter_change_location:
+    - "Let's change tour location"
+
+
+

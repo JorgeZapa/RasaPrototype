@@ -1,0 +1,27 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_give_name",
+    "intent_give_number",
+    "intent_lost",
+    "intent_distance",
+    "intent_go_home",
+    "intent_change_location",
+    "entity_PERSON",
+    "entity_number",
+    "slot_PERSON_0",
+    "slot_number_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_give_name",
+    "prev_utter_give_number",
+    "prev_utter_give_location",
+    "prev_utter_lost",
+    "prev_utter_distance",
+    "prev_utter_go_home",
+    "prev_utter_no_name",
+    "prev_utter_no_number",
+    "prev_utter_change_location"
+  ]
+}

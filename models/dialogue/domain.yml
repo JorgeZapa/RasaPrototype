@@ -1,0 +1,69 @@
+action_factory: remote
+action_names:
+- utter_greet
+- utter_give_name
+- utter_give_number
+- utter_give_location
+- utter_lost
+- utter_distance
+- utter_go_home
+- utter_no_name
+- utter_no_number
+- utter_change_location
+actions:
+- utter_greet
+- utter_give_name
+- utter_give_number
+- utter_give_location
+- utter_lost
+- utter_distance
+- utter_go_home
+- utter_no_name
+- utter_no_number
+- utter_change_location
+config:
+  store_entities_as_slots: true
+entities:
+- PERSON
+- number
+intents:
+- greet
+- give_name
+- give_number
+- lost
+- distance
+- go_home
+- change_location
+slots:
+  PERSON:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  number:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_change_location:
+  - text: Let's change tour location
+  utter_distance:
+  - text: Your distance to home is {distance}
+  utter_give_location:
+  - text: Excelent!
+  utter_give_name:
+  - text: Nice to meet you {name}
+  utter_give_number:
+  - text: '{number} its a wonderfull number'
+  utter_go_home:
+  - text: this is how you get home
+  utter_greet:
+  - text: hello!
+  - text: hey there!
+  - text: hello do you need something?
+  utter_lost:
+  - text: Sending SMS to sosNumber
+  utter_no_name:
+  - text: I didn't understand your name
+  utter_no_number:
+  - text: I didn't get your number
+  utter_wrong:
+  - text: I didn't understand you, repeat
+topics: []

@@ -1,0 +1,7 @@
+{
+  "pipeline": ["nlp_spacy", "ner_spacy", "tokenizer_spacy", "intent_entity_featurizer_regex", "intent_featurizer_spacy", "ner_crf", "ner_synonyms",  "intent_classifier_sklearn"],
+  "path" : "./models/nlu",
+  "data" : "./data/nlu.json",
+  "fixed_model_name": "latest",
+  "response_log": "logs/nlu/"
+}
