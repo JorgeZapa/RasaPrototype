@@ -1,116 +1,121 @@
 Start
 Message; Intent ;Confidence factor 
-who are you?;lost;0.3441528103285665
-fornite;greet;0.26004123858218
-I love fornite;change_location;0.21700370356383208
-i use to play fornite;go_home;0.3875317672041923
-clash of clans;distance;0.25425176911949393
-I love clash of clans;distance;0.21373853274204713
-i use to play clash of clans;go_home;0.27702686450877917
-clash Royale;change_location;0.3084856585874203
-I love clash Royale;change_location;0.21854852150522544
-i use to play clash Royale;go_home;0.3472305441037981
-i play animal crossing;go_home;0.21507307383806534
-i play lost in the wood;distance;0.2387476676199361
-i usually play rocky;lost;0.46152482427507796
-i played Little things;lost;0.212021358643364
-I played My Way today;go_home;0.3067019392390846
-I played My Way all day;go_home;0.2687268597634132
-i played Rock And Roll yesteday;distance;0.22515549939087123
-i played Call of Duty one week ago;distance;0.24558436521877006
-i love Lost In The Deep a lot;distance;0.25930023168648125
-I hate Lost in the Deep so much;distance;0.28284008056240056
-i do not play videogames;lost;0.4170182843420905
-i didn't play any games today;go_home;0.37860574487804455
-i do not play any games;go_home;0.32785694087147604
-i hate videogames;lost;0.3131490517917576
-What is your favourite videogame?;distance;0.3206571299917931
-Do you have any favourite game?;go_home;0.3616026810345982
-yes;greet;0.7014261594928388
-yeah;greet;0.6982708261046281
-absolutely;greet;0.418391644086034
-indeed;greet;0.35799107761402027
-affirmative;greet;0.5824580849660577
-no;give_name;0.3612015167579702
-nope;greet;0.3592168162248832
-negative;greet;0.6933547230761247
-nop;greet;0.4474805235844718
-i did not play any videogames;go_home;0.3438384056242046
-i did not play videogames today;go_home;0.3278430363549896
+who are you?;lost;0.4373274279307305
+fornite;greet;0.2510901724426959
+I love fornite;lost;0.2801145592180586
+i use to play fornite;go_home;0.3210619767431592
+clash of clans;distance;0.2354027205222441
+I love clash of clans;distance;0.2264136571295727
+i use to play clash of clans;go_home;0.25035536788646406
+clash Royale;change_location;0.2639419434833184
+I love clash Royale;lost;0.20396393404063715
+i use to play clash Royale;go_home;0.2783768524906053
+i play animal crossing;lost;0.20278345382229437
+i play lost in the wood;distance;0.2768732325405456
+i usually play rocky;lost;0.43316481242868127
+i played Little things;lost;0.2714389294416294
+I played My Way today;go_home;0.2890484878810844
+I played My Way all day;go_home;0.2662759722657428
+i played Rock And Roll yesteday;distance;0.22877217780092643
+i played Call of Duty one week ago;distance;0.24872976651997056
+i love Lost In The Deep a lot;distance;0.3459841739561172
+I hate Lost in the Deep so much;distance;0.36898025822156766
+i do not play videogames;lost;0.403641497547073
+i didn't play any games today;go_home;0.4142869661395582
+i do not play any games;go_home;0.3849986443517688
+i hate videogames;lost;0.3793174199276619
+What is your favourite videogame?;distance;0.356672280801011
+Do you have any favourite game?;go_home;0.3543530581521332
+yes;greet;0.6988246472082196
+yeah;greet;0.6972895744131969
+absolutely;greet;0.43587956778019427
+indeed;greet;0.3466566556621108
+affirmative;greet;0.5869342669229212
+no;give_name;0.3511329513326073
+nope;greet;0.314906261702933
+negative;greet;0.7035693421599718
+nop;greet;0.44572458524273845
+i did not play any videogames;go_home;0.42316911923244976
+i did not play videogames today;go_home;0.39778334150962
+no i don't;go_home;0.3408139002040109
+yes i do;lost;0.3495034957242503
 
 Fornite
 Message; Intent ;Confidence factor 
-i like to build walls;go_home;0.33907408189508864
-i love to build roofs;go_home;0.3468126224514491
-i like to play with friends;go_home;0.33058379147844347
-i play alone;lost;0.40412518419584703
-i play by my own;go_home;0.1790948456940762
-i do not like playing competitive;go_home;0.36529955093797517
-i hate snipers;lost;0.28750648792988
-I like to play a lot;go_home;0.4538585833051043
+i like to build walls;go_home;0.32903758325357296
+i love to build roofs;go_home;0.30734205614496474
+i like to play with friends;go_home;0.32187431958232626
+i play alone;lost;0.40086958784859905
+i play by my own;lost;0.23465850446337447
+i do not like playing competitive;go_home;0.41431916149136805
+i hate snipers;lost;0.3811909961793009
+I like to play a lot;go_home;0.4272709884252644
+I have never won a game;go_home;0.26000706055326894
+I have never won a whole game;go_home;0.24125125031375969
+I never won a game;go_home;0.29224059252272055
 
 Clash Royale
 Message; Intent ;Confidence factor 
-My arena level is 9;give_name;0.33718411109107416
-2;distance;0.2819905119935217
-4;give_number;0.38603785118171513
-7;give_number;0.6072158500591298
-I have 20 legendary cards;distance;0.20800309909417145
-3;give_number;0.39213650716938775
-15;give_number;0.5093460743865863
-I hate when enemies spam monsters;distance;0.22520776980873766
+My arena level is 9;give_name;0.33344930399010986
+2;give_number;0.3210612999141423
+4;give_number;0.40080169676647853
+7;give_number;0.6111150743897049
+I have 20 legendary cards;lost;0.22866176974760113
+3;give_number;0.39069620504457114
+15;give_number;0.49881103811733046
+I hate when enemies spam monsters;distance;0.25675523782662
 
 Clash of Clans
 Message; Intent ;Confidence factor 
-I own 2222 cups;give_number;0.19889988191459454
-I have 3400 cups;distance;0.2429243964132781
-I have 2300;lost;0.3438639759657385
-3945;give_number;0.5615347928320044
-1234;give_number;0.4393914006304684
-My town hall level is 1;give_name;0.3294560270174345
-3;give_number;0.39213650716938775
-10;give_number;0.49809584937451434
-13;give_number;0.5951059958571514
-I got attack by 30 troops yesterday;distance;0.27893279331339743
-I have 30000000 gold;lost;0.17479681378503883
+I own 2222 cups;lost;0.2561731500793394
+I have 3400 cups;lost;0.26362362913587944
+I have 2300;lost;0.4408720567999895
+3945;give_number;0.5661494507950972
+1234;give_number;0.4569291571420021
+My town hall level is 1;give_name;0.3319818681486569
+3;give_number;0.39069620504457114
+10;give_number;0.5003032875069209
+13;give_number;0.5996221477132531
+I got attack by 30 troops yesterday;distance;0.2774541325044082
+I have 30000000 gold;lost;0.2704732470133587
 
 Unknown game
 Message; Intent ;Confidence factor 
-It is a new game;give_name;0.3351043148816288
-It is new;give_name;0.3042778338760766
-it is an old one;give_name;0.29971875627136907
-It is about building cities;distance;0.3432391160858296
-About soccer;distance;0.4163073513605415
-It's about talking care of the animals in a zoo;distance;0.2668521590316464
-It is hard to explain;go_home;0.3525514934123066
-It is multiplayer;give_name;0.38121482925484046
-multiplayer;give_name;0.35953797424040307
-solo;greet;0.3433163310694504
-it is a one player game;give_name;0.3104934635277267
-It is for PC;distance;0.32987395767720795
-You can play it on switch;go_home;0.42060795848447907
-PlayStation;change_location;0.3429030372845112
-I love to play it with friends;go_home;0.349383665501769
-Yesterday i crafted a new T-shirt;distance;0.23240323877556365
+It is a new game;give_name;0.31113199985067147
+It is new;give_name;0.29373662086891195
+it is an old one;give_name;0.2697270781868469
+It is about building cities;distance;0.3856789733659589
+About soccer;distance;0.4147144888533388
+It's about taking care of the animals in a zoo;distance;0.35662337890177254
+It is hard to explain;go_home;0.35252596519405577
+It is multiplayer;give_name;0.3996749121906368
+multiplayer;give_name;0.3661267454808764
+solo;greet;0.3532781295352599
+it is a one player game;give_name;0.28967072014392775
+It is for PC;distance;0.3434042867162326
+You can play it on switch;go_home;0.41285860523309276
+PlayStation;change_location;0.2671885465357341
+I love to play it with friends;go_home;0.33378021132096786
+Yesterday i crafted a new T-shirt;distance;0.2576018422117727
 
 No game
 Message; Intent ;Confidence factor 
-i did play solitaire;go_home;0.36643381710755396
-i have played solitaire;lost;0.28067982998407914
-My winning streak is 12;give_number;0.28652758925310345
-13;give_number;0.5951059958571514
-What is my winning streak;give_name;0.2547968475713588
-I do not have a record;go_home;0.3078919798886256
-i do't know;lost;0.41094713252733867
-I did not count it;lost;0.4026593513610647
-I have never counted it;lost;0.48648511439127023
-no i haven't;lost;0.3579338977521369
-no i didn't;lost;0.33628233120928497
-i like to read;go_home;0.44814918600763437
-i read;lost;0.4624001341548075
-i love reading;change_location;0.21492967940290753
-i love reading Harry Potter;change_location;0.21618922654165645
-i prefer reading stories;distance;0.19014751739983454
-i like to play music;go_home;0.4268796474146528
-i like to play basketball;go_home;0.44250691480031557
+i did play solitaire;go_home;0.3433759110928037
+i have played solitaire;lost;0.40911052479196813
+My winning streak is 12;give_number;0.26418305109927126
+13;give_number;0.5996221477132531
+What is my winning streak;distance;0.31818836748390333
+I do not have a record;go_home;0.3630490832969169
+i do't know;lost;0.4431665809923787
+I did not count it;go_home;0.38872159746904983
+I have never counted it;lost;0.4987835428924507
+no i haven't;lost;0.346832900035101
+no i didn't;go_home;0.3505038038757792
+i like to read;go_home;0.44830430955653217
+i read;lost;0.4560921456423388
+i love reading;lost;0.2172530055249849
+i love reading Harry Potter;change_location;0.21401725245842104
+i prefer reading stories;distance;0.2287901856177426
+i like to play music;go_home;0.3923989829792274
+i like to play basketball;go_home;0.4094333032497138
 

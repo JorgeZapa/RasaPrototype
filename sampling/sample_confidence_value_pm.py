@@ -5,7 +5,6 @@ class SamplingPMCF():
 
     csv_file = open("confidenceValuePMSampling.csv", "w", newline='');
 
-    confidence_threshold = 0.2;
 
     patmatch_messages_start=["who are you?", "fornite", "I love fornite", "i use to play fornite",
                 "clash of clans", "I love clash of clans", "i use to play clash of clans",
@@ -19,12 +18,14 @@ class SamplingPMCF():
                  "What is your favourite videogame?", "Do you have any favourite game?",
                  "yes", "yeah", "absolutely", "indeed", "affirmative",
                  "no", "nope", "negative", "nop",
-                 "i did not play any videogames", "i did not play videogames today"]
+                 "i did not play any videogames", "i did not play videogames today",
+                "no i don't", "yes i do"]
 
     patmatch_messages_fornite=["i like to build walls", "i love to build roofs",
                  "i like to play with friends", "i play alone", "i play by my own",
                  "i do not like playing competitive",
-                 "i hate snipers", "I like to play a lot"]
+                 "i hate snipers", "I like to play a lot", "I have never won a game",
+                "I have never won a whole game", "I never won a game"]
 
     patmatch_messages_cr=["My arena level is 9", "2", "4", "7",
                  "I have 20 legendary cards", "3", "15",
@@ -35,7 +36,7 @@ class SamplingPMCF():
                  "I got attack by 30 troops yesterday", "I have 30000000 gold"]
 
     patmatch_messages_unkownGame=["It is a new game", "It is new", "it is an old one",
-                 "It is about building cities","About soccer", "It's about talking care of the animals in a zoo",
+                 "It is about building cities","About soccer", "It's about taking care of the animals in a zoo",
                  "It is hard to explain",
                  "It is multiplayer", "multiplayer", "solo", "it is a one player game",
                  "It is for PC", "You can play it on switch", "PlayStation",

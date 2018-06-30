@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec62f45-731d-4e2e-9ded-85717cc33ed9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/graph.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serveBot.sh" beforeDir="false" afterPath="$PROJECT_DIR$/serveBot.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/intentsSampling.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tests/intentsSampling.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/keras_arch.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/keras_arch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/keras_policy.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/keras_policy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/keras_weights.h5" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/keras_weights.h5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/memorized_turns.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/memorized_turns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dialogue/policy_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/dialogue/policy_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/latest/crf_model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/latest/crf_model.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/latest/intent_classifier.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/latest/intent_classifier.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/latest/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/latest/metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nlu/default/latest/training_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/nlu/default/latest/training_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampling/confidenceValuePMSampling.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sampling/confidenceValuePMSampling.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampling/test_confidence_value_pm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/intentsSampling.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_intents.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_intents.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,26 +27,26 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/prototype$Unittests_in_greetIntentTest_py.coverage" NAME="Unittests in TestGreetIntent.py Coverage Results" MODIFIED="1520882255735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/prototype$Unittests_for_test_flows_TestFlow.coverage" NAME="Unittests for test_flows.TestFlow Coverage Results" MODIFIED="1529603786011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/prototype$Unittests_in_test_intents_py.coverage" NAME="Unittests in test_intents.py Coverage Results" MODIFIED="1529779051939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/prototype$Unittests_for_test_flows_TestFlow.coverage" NAME="Unittests for test_flows.TestFlow Coverage Results" MODIFIED="1530375457135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/prototype$Unittests_in_test_intents_py.coverage" NAME="Unittests in test_intents.py Coverage Results" MODIFIED="1530375522230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$Unittests_in_TestFlows_py.coverage" NAME="Unittests in TestFlows.py Coverage Results" MODIFIED="1528556246150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/prototype$test_confidence_value_pm.coverage" NAME="test_confidence_value_pm Coverage Results" MODIFIED="1529777557427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
+    <SUITE FILE_PATH="coverage/prototype$test_confidence_value_pm.coverage" NAME="test_confidence_value_pm Coverage Results" MODIFIED="1530375605373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sampling" />
     <SUITE FILE_PATH="coverage/prototype$Unittests_for_TestConfidenceValuePM_TestIntents_test_get_confidenceFile.coverage" NAME="Unittests for TestConfidenceValuePM.TestIntents.test_get_confidenceFile Coverage Results" MODIFIED="1528557902277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$Unittests_in_TestIntents_py.coverage" NAME="Unittests in TestIntents.py Coverage Results" MODIFIED="1529603591157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$Unittests_for_tests_test_confidence_value_pm_TestIntents.coverage" NAME="Unittests for tests.test_confidence_value_pm.TestIntents Coverage Results" MODIFIED="1529768709442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$Unittests_for_test_confidence_value_pm_TestIntents.coverage" NAME="Unittests for test_confidence_value_pm.TestIntents Coverage Results" MODIFIED="1529603704066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$train_online.coverage" NAME="train_online Coverage Results" MODIFIED="1521391253634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/prototype$Unittests_for_test_intents_TestIntents.coverage" NAME="Unittests for test_intents.TestIntents Coverage Results" MODIFIED="1529849180457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/prototype$Unittests_for_test_intents_TestIntents.coverage" NAME="Unittests for test_intents.TestIntents Coverage Results" MODIFIED="1530376225133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$Unittests_in_TestGreetIntent_py.coverage" NAME="Unittests in TestIntents.py Coverage Results" MODIFIED="1520938402423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/prototype$trial.coverage" NAME="trial Coverage Results" MODIFIED="1520879981872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="test_intents.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_intents.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_intents.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="288">
+              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -42,36 +54,26 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
+            <state relative-caret-position="2472">
               <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="out.log" pinned="false" current-in-tab="true">
+      <file leaf-file-name="out.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logs/http/out.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21252">
+            <state relative-caret-position="144">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="confidenceValuePMSampling.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sampling/confidenceValuePMSampling.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sampling/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="json_rasa_parser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/json_rasa_parser.py">
+      <file leaf-file-name="domain.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/domain.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="168">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -79,15 +81,37 @@
       <file leaf-file-name="nlu.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/nlu.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8064">
-              <caret line="336" column="45" selection-start-line="336" selection-start-column="37" selection-end-line="336" selection-end-column="45" />
+            <state relative-caret-position="99">
+              <caret line="301" column="12" lean-forward="true" selection-start-line="301" selection-start-column="12" selection-end-line="301" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="training_data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/nlu/default/latest/training_data.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="stories.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/stories.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1128">
+              <caret line="47" selection-start-line="47" selection-end-line="49" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="serveBot.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serveBot.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_confidence_value_pm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sampling/sample_confidence_value_pm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1924">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="test_flows.py" pinned="false" current-in-tab="false">
@@ -95,15 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="960">
               <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_confidence_value_pm.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sampling/test_confidence_value_pm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -122,7 +137,7 @@
       <find>utter-attack</find>
       <find>thank</find>
       <find>403</find>
-      <find>if origin:</find>
+      <find />
       <find>978</find>
       <find>pedro</find>
       <find>sup</find>
@@ -136,9 +151,14 @@
       <find>good</find>
       <find>change_loca</find>
       <find>GREET</find>
-      <find>lost</find>
       <find>location</find>
       <find>PlayS</find>
+      <find>welcom</find>
+      <find>talking</find>
+      <find>lost</find>
+      <find />
+      <find>distanc</find>
+      <find>go_hom</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,17 +189,18 @@
         <option value="$PROJECT_DIR$/train_online.py" />
         <option value="$PROJECT_DIR$/nlu_model_config.json" />
         <option value="$PROJECT_DIR$/data/stories.md" />
-        <option value="$PROJECT_DIR$/domain.yml" />
         <option value="$PROJECT_DIR$/tests/TestFlows.py" />
         <option value="$PROJECT_DIR$/tests/TestIntents.py" />
         <option value="$PROJECT_DIR$/tests/jsonRasaParser.py" />
         <option value="$PROJECT_DIR$/tests/httpRasa.py" />
         <option value="$PROJECT_DIR$/tests/TestConfidenceValuePM.py" />
-        <option value="$PROJECT_DIR$/data/nlu.json" />
         <option value="$PROJECT_DIR$/tests/test_confidence_value_pm.py" />
         <option value="$PROJECT_DIR$/sampling/test_confidence_value_pm.py" />
-        <option value="$PROJECT_DIR$/tests/test_intents.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/domain.yml" />
+        <option value="$PROJECT_DIR$/data/nlu.json" />
+        <option value="$PROJECT_DIR$/sampling/sample_confidence_value_pm.py" />
+        <option value="$PROJECT_DIR$/tests/test_intents.py" />
       </list>
     </option>
   </component>
@@ -197,11 +218,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="806" />
-    <option name="y" value="75" />
-    <option name="width" value="1837" />
-    <option name="height" value="1084" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="81" />
+    <option name="y" value="30" />
+    <option name="width" value="920" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,28 +230,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="prototype" type="b2602c69:ProjectViewProjectNode" />
               <item name="prototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="prototype" type="b2602c69:ProjectViewProjectNode" />
@@ -242,16 +248,10 @@
               <item name="prototype" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="prototype" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prototype" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,13 +296,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sampling/test_confidence_value_pm.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sampling/sample_confidence_value_pm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for sampling.test_confidence_value_pm.TestIntents" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for sampling.sample_confidence_value_pm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="prototype" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,7 +313,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sampling.test_confidence_value_pm.TestIntents&quot;" />
+      <option name="_new_target" value="&quot;sampling.sample_confidence_value_pm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="Unittests for test_flows.TestFlow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -360,7 +360,7 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in test_intents.py" />
-      <item itemvalue="Python tests.Unittests for sampling.test_confidence_value_pm.TestIntents" />
+      <item itemvalue="Python tests.Unittests for sampling.sample_confidence_value_pm" />
       <item itemvalue="Python tests.Unittests for test_intents.TestIntents" />
       <item itemvalue="Python tests.Unittests for test_flows.TestFlow" />
       <item itemvalue="Python.test_confidence_value_pm" />
@@ -368,10 +368,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for test_intents.TestIntents" />
-        <item itemvalue="Python tests.Unittests in test_intents.py" />
         <item itemvalue="Python.test_confidence_value_pm" />
-        <item itemvalue="Python tests.Unittests for sampling.test_confidence_value_pm.TestIntents" />
+        <item itemvalue="Python tests.Unittests in test_intents.py" />
         <item itemvalue="Python tests.Unittests for test_flows.TestFlow" />
+        <item itemvalue="Python tests.Unittests for sampling.sample_confidence_value_pm" />
       </list>
     </recent_temporary>
   </component>
@@ -389,75 +389,62 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_intents_py - 2018.06.23 at 17h 36m 28s.xml">
-      <configuration name="Unittests in test_intents.py" configurationId="tests" />
+    <history-entry file="Unittests_for_test_flows_TestFlow - 2018.06.24 at 19h 38m 50s.xml">
+      <configuration name="Unittests for test_flows.TestFlow" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_intents_py - 2018.06.23 at 17h 37m 06s.xml">
-      <configuration name="Unittests in test_intents.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_test_confidence_value_pm_TestIntents - 2018.06.23 at 17h 44m 14s.xml">
-      <configuration name="Unittests for tests.test_confidence_value_pm.TestIntents" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_tests_test_confidence_value_pm_TestIntents - 2018.06.23 at 17h 45m 18s.xml">
-      <configuration name="Unittests for tests.test_confidence_value_pm.TestIntents" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.23 at 17h 52m 51s.xml">
+    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.24 at 19h 38m 54s.xml">
       <configuration name="Unittests for test_intents.TestIntents" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.23 at 20h 13m 06s.xml">
+    <history-entry file="Unittests_for_test_flows_TestFlow - 2018.06.26 at 21h 20m 07s.xml">
+      <configuration name="Unittests for test_flows.TestFlow" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.26 at 21h 30m 06s.xml">
       <configuration name="Unittests for test_intents.TestIntents" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_intents_py - 2018.06.23 at 20h 35m 04s.xml">
+    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.26 at 21h 30m 44s.xml">
+      <configuration name="Unittests for test_intents.TestIntents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.26 at 22h 02m 26s.xml">
+      <configuration name="Unittests for test_intents.TestIntents" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_flows_TestFlow - 2018.06.30 at 18h 17m 38s.xml">
+      <configuration name="Unittests for test_flows.TestFlow" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_intents_py - 2018.06.30 at 18h 17m 56s.xml">
       <configuration name="Unittests in test_intents.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_intents_py - 2018.06.23 at 20h 36m 01s.xml">
+    <history-entry file="Unittests_in_test_intents_py - 2018.06.30 at 18h 18m 44s.xml">
       <configuration name="Unittests in test_intents.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_intents_py - 2018.06.23 at 20h 37m 35s.xml">
-      <configuration name="Unittests in test_intents.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.24 at 16h 06m 24s.xml">
+    <history-entry file="Unittests_for_test_intents_TestIntents - 2018.06.30 at 18h 30m 27s.xml">
       <configuration name="Unittests for test_intents.TestIntents" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="-5" width="1839" height="1085" extended-state="6" />
+    <frame x="80" y="-5" width="1841" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5084285" side_tool="true" weight="0.3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29418105" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49157152" visible="true" weight="0.32327586" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32408917" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30495688" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49157152" weight="0.3114224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5285481" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32408917" />
-      <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29474813" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5084285" side_tool="true" weight="0.3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49157152" weight="0.3215434" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,11 +455,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/rasa_nlu_log-20180223-130510-5444.log" />
     <entry file="file://$PROJECT_DIR$/out.log" />
     <entry file="file:///usr/lib/python3.5/locale.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serveBot.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drawFlow.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -586,13 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/stories.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.5/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
@@ -605,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -647,34 +612,13 @@
     <entry file="file://$PROJECT_DIR$/models/nlu/default/latest/training_data.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/nlu.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8064">
-          <caret line="336" column="45" selection-start-line="336" selection-start-column="37" selection-end-line="336" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampling/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/intents.csv" />
-    <entry file="file://$PROJECT_DIR$/sampling/test_confidence_value_pm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampling/confidenceValuePM.csv" />
     <entry file="file://$PROJECT_DIR$/sampling/confidenceValuePMSampling.csv">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_flows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/json_rasa_parser.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -683,27 +627,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_intents.py">
+    <entry file="file://$PROJECT_DIR$/setUp.sh" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="2472">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setUp.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/serveBot.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="24">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/http/out.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21252">
+        <state relative-caret-position="144">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/stories.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="47" selection-start-line="47" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_flows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/intentsSampling.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/nlu.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="301" column="12" lean-forward="true" selection-start-line="301" selection-start-column="12" selection-end-line="301" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling/sample_confidence_value_pm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1924">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_intents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>

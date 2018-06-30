@@ -10,15 +10,15 @@ class TestIntents(unittest.TestCase):
         "greet": 0,
         "give_name": 0,
         "give_number": 0,
-        "change_location": 0.353202307,
-        "lost": 0.522061735,
-        "distance": 0.438319301,
-        "go_home": 0.47887404
+        "change_location": 0.313818387,
+        "lost": 0.519032294,
+        "distance": 0.434785436,
+        "go_home": 0.470359587
     }
 
     @classmethod
     def setUpClass(cls):
-        cls.csv_file.write('Message; Confidence factor; Diff ConfFact; Second intent \n')
+        cls.csv_file.write('Message; Confidence factor; Diff CF; Second intent \n')
         HttpRasa.make_continue_request('utter_change_location', 'test', 'restart');
 
     @classmethod
@@ -43,7 +43,8 @@ class TestIntents(unittest.TestCase):
     def test_lost_intent(self):
         print('-- lost_intent --')
         self.csv_file.write("LOST\n")
-        goodbye_messages = ['lost', "i don't know where i am", "i am afraid i am lost"]
+        goodbye_messages = ['lost', "i don't know where i am", "i am afraid i am lost",
+                            "i'm lost", "Help", "I am lost, help!"]
         for message in goodbye_messages:
             json_result = HttpRasa.make_parse_request_from_text(message, 'test')
             json_intent = JsonRasaParser.get_intent_from_parse_response(json_result)
@@ -56,7 +57,7 @@ class TestIntents(unittest.TestCase):
         print('-- go_home_intent --')
         self.csv_file.write("GO HOME\n")
         goHome_messages = ['go home', "i want to go back", "i wanna go home", "Can you show me the route to my home?",
-                           "Show me the route to home"]
+                           "Show me the route to home", "I would like to go home"]
         for message in goHome_messages:
             json_result = HttpRasa.make_parse_request_from_text(message, 'test')
             json_intent = JsonRasaParser.get_intent_from_parse_response(json_result)
@@ -68,7 +69,8 @@ class TestIntents(unittest.TestCase):
     def test_distance_intent(self):
         print('-- distance_intent --')
         self.csv_file.write("DISTANCE\n")
-        goHome_messages = ['distance', "how far am i from home?", "am i too far from home?"]
+        goHome_messages = ['distance', "how far am i from home?", "am i too far from home?",
+                           "What is the distance between me and my home?"]
         for message in goHome_messages:
             json_result = HttpRasa.make_parse_request_from_text(message, 'test')
             json_intent = JsonRasaParser.get_intent_from_parse_response(json_result)

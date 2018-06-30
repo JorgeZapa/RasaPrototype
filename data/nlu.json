@@ -232,12 +232,27 @@
         "entities": []
       },
       {
+        "text": "help",
+        "intent": "lost",
+        "entities": []
+      },
+      {
+        "text": "I'm lost, help!",
+        "intent": "lost",
+        "entities": []
+      },
+      {
         "text": "how far i am from home?",
         "intent": "distance",
         "entities": []
       },
       {
         "text": "distance",
+        "intent": "distance",
+        "entities": []
+      },
+      {
+        "text": "What is the distance between my and my home",
         "intent": "distance",
         "entities": []
       },
@@ -283,6 +298,11 @@
       },
       {
         "text": "go home",
+        "intent": "go_home",
+        "entities": []
+      },
+      {
+        "text": "I would like to go home",
         "intent": "go_home",
         "entities": []
       },
